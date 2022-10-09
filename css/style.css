@@ -13,6 +13,7 @@ header{
 }
 
 
+
 .entete_div{
     display: flex;
 }
@@ -43,10 +44,14 @@ header h2{
 
 #entete_div_photo_id{
     width: 50%;
+    height: 290px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
     
 }
 #entete_div_photo_id img{
-    height: 300px;
+    height: 290px;
     width: auto;
 }
 /*__________________________________________________________________________________________*/
@@ -91,16 +96,13 @@ footer h2, footer p{
 #footer_titre_texte_liens{
     width: 50%;
     margin-left: 25%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+    border: 1px solid red;
+    padding-top: 50px;
+    padding-bottom: 40px;
+
 }
 
-#footer_titre{
-    
-}
-#footer_texte{
-    
-}
+
 .footer_div_liens_icones{
     display: flex;
     
